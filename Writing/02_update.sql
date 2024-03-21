@@ -1,0 +1,4 @@
+-- GOLDEN RULE 'ALWAYS USE UPDATE WITH WHERE' ALWAYS WITH A FILTER CONDITION --
+UPDATE users SET age = 21 WHERE user_id = 1;
+
+UPDATE users SET age = 21, init_date = '2023-20-03' WHERE user_id = 1;
